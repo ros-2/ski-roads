@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Life On The Edge Of Rubber</title>
+<meta name="description" content="181km over three Cairngorm ski stations. Five men, one hobnob, and 89.2kph behind a campervan.">
+<meta property="og:title" content="Life On The Edge Of Rubber">
+<meta property="og:type" content="article">
+<meta property="og:image" content="img/pf522fa2aac.jpg">
+</head>
+<body>
+<style>
+@font-face{font-family:"Industry TG";font-weight:400;font-style:normal;font-display:swap;src:url(fonts/f86e84bf9.woff2) format("woff2")}
+@font-face{font-family:"Industry TG";font-weight:500;font-style:normal;font-display:swap;src:url(fonts/f5eeb6398.woff2) format("woff2")}
+@font-face{font-family:"Industry TG";font-weight:700;font-style:normal;font-display:swap;src:url(fonts/f0f8aa2c2.woff2) format("woff2")}
+@font-face{font-family:"ReithSans";font-weight:400;font-style:normal;font-display:swap;src:url(fonts/f8605095a.woff2) format("woff2")}
+@font-face{font-family:"ReithSans";font-weight:700;font-style:normal;font-display:swap;src:url(fonts/fbdd198fd.woff2) format("woff2")}
+@font-face{font-family:"ReithSans";font-weight:400;font-style:italic;font-display:swap;src:url(fonts/fb00c4463.woff2) format("woff2")}
+:root{
+  --navy:#001024; --teal:#26CAD3; --white:#FFFFFF; --grey:#4B4B4B;
+  --gel-grey:#f5f5f6; --rule:#e3e6e8; --caption:#6c757d;
+  --ind:"Industry TG",Helvetica,Arial,sans-serif;
+  --reith:"ReithSans",Helvetica,Arial,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{font-family:var(--reith);font-size:1rem;line-height:1.5;color:var(--navy);background:var(--white);
+  word-break:break-word;overflow-wrap:break-word}
+img{max-width:100%;display:block}
+a{color:inherit}
+
+/* region strip */
+.region{background:var(--navy);color:#fff;font-family:var(--reith);font-size:.8125rem}
+.region .in{max-width:80rem;margin:0 auto;padding:.5rem 1rem;display:flex;gap:1rem;justify-content:flex-end}
+.region a{text-decoration:none;opacity:.65}
+.region a.on{opacity:1;font-weight:700}
+
+/* teal masthead */
+.mast{background:var(--teal)}
+.mast .in{max-width:80rem;margin:0 auto;padding:.75rem 1rem;display:flex;align-items:center;gap:2rem}
+.mast .logo img{height:52px;width:auto}
+.mast nav{display:flex;gap:1.5rem;flex:1;font-family:var(--ind);font-weight:700;
+  font-size:.9375rem;text-transform:uppercase;letter-spacing:.02em}
+.mast nav a{color:var(--navy);text-decoration:none;padding:.35rem 0;border-bottom:3px solid transparent}
+.mast nav a:hover,.mast nav a:focus-visible{border-bottom-color:var(--navy)}
+.mast .tools{display:flex;gap:1.25rem;font-family:var(--ind);font-weight:700;font-size:.8125rem;
+  text-transform:uppercase;color:var(--navy)}
+
+/* breadcrumb */
+.crumb{background:var(--navy);color:#fff}
+.crumb .in{max-width:80rem;margin:0 auto;padding:.75rem 1rem;font-family:var(--reith);font-size:.875rem;
+  display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}
+.crumb a{text-decoration:none;opacity:.8}
+.crumb a:hover{opacity:1}
+.crumb .arw{opacity:.5}
+.crumb .cur{opacity:.7;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* full-screen hero */
+.fsh{line-height:0;position:relative;background:var(--navy)}
+.fsh:after{content:'';position:absolute;inset:auto 0 0 0;height:45%;pointer-events:none;
+  background:linear-gradient(to bottom,rgba(0,16,36,0) 0%,rgba(0,16,36,.45) 45%,
+    rgba(0,16,36,.85) 78%,var(--navy) 100%)}
+.fsh .strip{height:180px;background-position:center center;background-size:cover;background-repeat:no-repeat}
+@media(min-width:37.5em){.fsh .strip{height:360px}}
+@media(min-width:61.25em){.fsh .strip{height:562px}}
+
+/* title block over navy, pulled up */
+.titlewrap{background:var(--navy)}
+.titlewrap .in{position:relative;margin:0 auto;max-width:63rem;padding:0 1rem 2.5rem}
+@media(min-width:61.25em){.titlewrap .in{margin-top:-60px}}
+.cat{display:inline-block;font-family:var(--reith);font-weight:700;font-size:1rem;
+  color:var(--teal);text-decoration:none;text-transform:uppercase;letter-spacing:.04em;
+  padding:1.5rem 0 1rem}
+h1.fool{font-family:var(--ind);font-weight:500;text-transform:uppercase;color:#fff;
+  font-size:2rem;line-height:2.25rem;padding-bottom:1.5rem}
+@media(min-width:37.5em){h1.fool{font-size:2.5rem;line-height:2.75rem}}
+@media(min-width:61.25em){h1.fool{font-size:3.5rem;line-height:3.75rem}}
+p.pica{font-family:var(--ind);font-weight:500;font-size:1rem;line-height:1.25rem;color:#fff;
+  max-width:44.5em;padding-bottom:1.5rem}
+.authored{display:flex;align-items:center;gap:.75rem;color:#fff;font-family:var(--reith);font-size:1rem}
+.authored .av{width:50px;height:50px;border-radius:50%;object-fit:cover;flex-shrink:0}
+.authored .who b{font-weight:700}
+.authored .when{opacity:.7;font-size:.875rem}
+
+/* teal rule above article */
+.tealrule{display:block;width:100%;height:13px;background:var(--teal)}
+
+/* article on white */
+.markup{background:var(--white);color:var(--navy)}
+.markup .in{max-width:63rem;margin:0 auto;padding:2.5rem 1rem 1rem}
+.markup p,.markup h2,.markup h3,.markup ul,.markup blockquote{max-width:44.5em}
+.markup > .in > * + *{margin-top:1em}
+.markup p{font-family:var(--reith);font-size:1rem;line-height:1.5rem}
+@media(min-width:37.5em){.markup p{font-size:1.125rem;line-height:1.75rem}}
+.markup p:first-of-type:first-letter{float:left;font-family:var(--ind);font-size:78px;font-weight:700;
+  line-height:50px;padding:4px 8px 0 0;color:var(--navy)}
+.markup h2{font-family:var(--ind);font-weight:500;text-transform:uppercase;color:var(--navy);
+  font-size:1.25rem;line-height:1.5rem;margin-top:2.5rem}
+@media(min-width:37.5em){.markup h2{font-size:1.375rem;line-height:1.625rem}}
+@media(min-width:61.25em){.markup h2{font-size:1.75rem;line-height:2rem}}
+.markup strong{font-weight:700}
+.markup em{font-style:italic}
+
+/* pull quote - real TG treatment: big, quoted, teal bar under */
+.markup blockquote{margin:4rem 0 3rem;font-weight:900;color:var(--navy)}
+.markup blockquote p{display:inline;font-family:var(--ind);font-size:1.5rem;line-height:1.75rem;
+  quotes:'\201C' '\201D' '\2018' '\2019'}
+@media(min-width:61.25em){.markup blockquote p{font-size:2rem;line-height:2.25rem}}
+.markup blockquote p:before{content:open-quote;font-size:1em;line-height:0}
+.markup blockquote p:after{content:close-quote;font-size:1em;line-height:0;vertical-align:-.14em}
+.markup blockquote:after{content:'';display:block;width:100%;max-width:46px;height:8px;background:var(--teal);margin-top:1.25rem}
+@media(min-width:61.25em){.markup blockquote:after{max-width:89px;height:10px}}
+
+/* figures */
+figure.shot{margin:1.5rem 0;max-width:none}
+figure.shot img{width:100%;height:auto}
+figure.shot figcaption{font-family:var(--reith);font-size:.875rem;line-height:1.25rem;
+  color:var(--caption);margin-top:.5rem}
+
+/* stat table in TG style */
+table.res{width:100%;border-collapse:separate;border-spacing:0;margin-top:2rem;font-family:var(--reith);
+  display:block;overflow-x:auto}
+@media(min-width:45em){table.res{display:table}}
+table.res thead tr>th{background:var(--navy);color:#fff;text-align:left;font-family:var(--ind);
+  font-weight:700;font-size:1rem;line-height:1.25rem;padding:.9rem .75rem;white-space:nowrap}
+table.res tbody tr>td{background:#fff;font-weight:700;font-size:.9375rem;line-height:1.125rem;
+  padding:.9rem .75rem;white-space:normal}
+table.res tbody tr:nth-child(even)>td{background:var(--gel-grey)}
+table.res td.n{font-variant-numeric:tabular-nums;white-space:nowrap}
+
+/* key numbers */
+.keyfig{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rule);
+  border:1px solid var(--rule);margin:2rem 0;max-width:none}
+.keyfig div{background:#fff;padding:1.25rem .75rem;text-align:center}
+.keyfig .v{font-family:var(--ind);font-weight:700;font-size:2rem;line-height:1;color:var(--navy);
+  font-variant-numeric:tabular-nums}
+.keyfig .k{font-family:var(--reith);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--caption);margin-top:.5rem}
+@media(max-width:38em){.keyfig{grid-template-columns:repeat(2,1fr)}}
+
+
+/* ---------- title block, matching TG ---------- */
+.authored{display:flex;align-items:center;gap:.75rem;color:#fff;font-family:var(--reith);font-size:1rem}
+.authored .av{width:52px;height:52px;border-radius:50%;object-fit:cover;flex-shrink:0;
+  background:#0D2E3D;border:1px solid rgba(255,255,255,.25)}
+.authored .nm{font-size:1.0625rem;font-weight:400;margin-bottom:.15rem}
+.authored .meta{display:flex;align-items:center;gap:.75rem;font-size:.875rem;opacity:.85}
+.authored .meta .cc{display:inline-flex;align-items:center;gap:.3rem}
+.subsc{display:inline-block;margin-top:1.5rem;color:var(--teal);font-family:var(--reith);
+  font-size:1rem;text-decoration:none;border-bottom:1px solid var(--teal);padding-bottom:2px}
+
+/* ---------- inline "You might like" box ---------- */
+.yml{border:1px solid var(--rule);padding:1.25rem;margin:2.5rem 0;max-width:none}
+.yml h3{font-family:var(--ind);font-weight:500;text-transform:uppercase;font-size:1.75rem;
+  color:var(--navy);margin-bottom:1rem}
+.yml ul{list-style:none;display:flex;flex-direction:column;gap:2px;padding:0}
+.yml li a{display:grid;grid-template-columns:225px 1fr;gap:1.5rem;align-items:center;
+  background:var(--gel-grey);text-decoration:none;border:none}
+.yml li img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.yml li span{font-family:var(--reith);font-size:1.125rem;line-height:1.4;color:var(--navy);
+  padding:1rem 1rem 1rem 0}
+.yml li a:hover span{text-decoration:underline}
+@media(max-width:44em){.yml li a{grid-template-columns:120px 1fr;gap:1rem}
+  .yml li span{font-size:1rem;padding:.5rem .5rem .5rem 0}}
+
+/* ---------- the real TG gallery: stage + filmstrip ---------- */
+.gallery{margin:2.5rem 0;max-width:none}
+.gstage{position:relative;background:#000;line-height:0}
+.gstage img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.gstage .arw{position:absolute;top:50%;transform:translateY(-50%);background:none;border:none;
+  color:#fff;font-size:3rem;line-height:1;cursor:pointer;padding:0 1rem;
+  text-shadow:0 2px 12px rgba(0,0,0,.7);font-family:var(--ind);font-weight:400}
+.gstage .arw:hover{color:var(--teal)}
+.gstage .lft{left:0} .gstage .rgt{right:0}
+.gstage .cnt{position:absolute;left:1.25rem;bottom:1rem;color:#fff;font-family:var(--reith);
+  font-size:1rem;text-shadow:0 2px 8px rgba(0,0,0,.8);line-height:1}
+.gstage .exp{position:absolute;right:1.25rem;bottom:1rem;background:none;border:none;color:#fff;
+  cursor:pointer;padding:.25rem;line-height:0}
+.gstage .exp svg{width:26px;height:26px;filter:drop-shadow(0 2px 8px rgba(0,0,0,.8))}
+.gcap{font-family:var(--reith);font-size:.875rem;line-height:1.25rem;color:var(--caption);
+  margin-top:.625rem}
+.gfilm{display:flex;gap:.5rem;overflow-x:auto;margin-top:.75rem;padding-bottom:.5rem;
+  scrollbar-width:thin}
+.gfilm button{flex:0 0 auto;width:172px;border:none;background:none;padding:0;cursor:pointer;
+  line-height:0;border-bottom:4px solid transparent}
+.gfilm button img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;opacity:.75}
+.gfilm button[aria-current="true"]{border-bottom-color:var(--teal)}
+.gfilm button[aria-current="true"] img,.gfilm button:hover img{opacity:1}
+@media(max-width:44em){.gfilm button{width:120px}}
+
+/* fullscreen overlay */
+.fs{position:fixed;inset:0;background:rgba(0,16,36,.98);z-index:9999;display:none;
+  flex-direction:column;padding:1rem}
+.fs.on{display:flex}
+.fs .top{display:flex;justify-content:flex-end}
+.fs .top button{background:none;border:none;color:#fff;font-size:2rem;cursor:pointer;
+  line-height:1;font-family:var(--ind)}
+.fs .mid{flex:1;display:flex;align-items:center;justify-content:center;min-height:0;position:relative}
+.fs .mid img{max-width:100%;max-height:100%;object-fit:contain}
+.fs .mid button{position:absolute;top:50%;transform:translateY(-50%);background:none;border:none;
+  color:#fff;font-size:3rem;cursor:pointer;padding:0 1rem;font-family:var(--ind)}
+.fs .mid .l{left:0}.fs .mid .r{right:0}
+.fs .cap{color:#fff;font-family:var(--reith);font-size:.9375rem;text-align:center;
+  padding:1rem;max-width:60rem;margin:0 auto}
+body.noscroll{overflow:hidden}
+
+/* ---------- article + featured sidebar layout ---------- */
+.shell{max-width:80rem;margin:0 auto;padding:0 1rem;display:grid;
+  grid-template-columns:minmax(0,1fr) 320px;gap:3rem;align-items:start}
+@media(max-width:64em){.shell{grid-template-columns:1fr;gap:2rem}}
+.markup .in{max-width:none;padding:2.5rem 0 1rem}
+
+/* featured sidebar */
+aside.side{padding-top:2.5rem;position:sticky;top:1rem}
+aside.side h2{font-family:var(--ind);font-weight:500;text-transform:uppercase;font-size:2rem;
+  color:var(--navy);margin-bottom:1.25rem}
+aside.side ul{list-style:none;display:flex;flex-direction:column;gap:1.25rem;padding:0}
+aside.side a{display:grid;grid-template-columns:112px 1fr;gap:1rem;text-decoration:none;align-items:start}
+aside.side .thumb{position:relative;line-height:0}
+aside.side .thumb img{width:100%;aspect-ratio:16/9;object-fit:cover}
+aside.side .badge{position:absolute;left:0;bottom:0;background:var(--teal);color:var(--navy);
+  font-family:var(--reith);font-weight:700;font-size:.75rem;padding:.15rem .4rem;
+  display:inline-flex;align-items:center;gap:.25rem;line-height:1.2}
+aside.side h3{font-family:var(--reith);font-weight:400;font-size:1.0625rem;line-height:1.3;
+  color:var(--navy)}
+aside.side a:hover h3{text-decoration:underline}
+
+
+/* ---------- View comments button + full-bleed closer ---------- */
+.viewcom{display:inline-flex;align-items:center;gap:.6rem;background:var(--navy);color:#fff;
+  font-family:var(--reith);font-weight:400;font-size:1.0625rem;padding:.9rem 2rem;
+  text-decoration:none;border:none;cursor:pointer;margin:2rem 0}
+.viewcom:hover{background:#0D2E3D}
+.closer{width:100%;line-height:0;margin-top:1rem;position:relative}
+.closer img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.closer:after{content:'';position:absolute;inset:0 0 auto 0;height:38%;pointer-events:none;
+  background:linear-gradient(to bottom,var(--white) 0%,rgba(255,255,255,.92) 18%,
+    rgba(255,255,255,.65) 42%,rgba(255,255,255,.28) 70%,rgba(255,255,255,0) 100%)}
+
+/* ---------- More from Quickler ---------- */
+.mftg{margin-top:3rem;background:#fff}
+.mftg .hd{max-width:80rem;margin:0 auto;padding:2rem 1rem 0}
+.mftg h2{font-family:var(--ind);font-weight:500;text-transform:uppercase;font-size:2rem;
+  color:var(--navy);margin-bottom:1rem}
+.tabs{max-width:80rem;margin:0 auto;padding:0 1rem;display:flex;gap:0}
+.tabs button{font-family:var(--reith);font-weight:700;font-size:1rem;padding:.85rem 1.5rem;
+  background:none;border:none;color:var(--navy);cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--navy);color:#fff}
+.mftg .body{background:var(--navy);padding:2rem 0 2.5rem}
+.mftg .grid3{max-width:80rem;margin:0 auto;padding:0 1rem;display:grid;
+  grid-template-columns:repeat(3,1fr);gap:2rem 1.75rem}
+@media(max-width:60em){.mftg .grid3{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:40em){.mftg .grid3{grid-template-columns:1fr}}
+.mftg article a{text-decoration:none;display:block}
+.mftg article img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.mftg .kick{font-family:var(--reith);font-size:.8125rem;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--teal);margin:.75rem 0 .4rem}
+.mftg h3{font-family:var(--reith);font-weight:400;font-size:1.25rem;line-height:1.35;color:#fff}
+.mftg article a:hover h3{text-decoration:underline;color:var(--teal)}
+.mftg .dt{font-family:var(--reith);font-size:.9375rem;color:rgba(255,255,255,.7);margin-top:.6rem}
+
+/* ---------- magazine subscribe bar ---------- */
+.magbar{background:var(--navy);padding:1.75rem 1rem;display:flex;align-items:center;
+  justify-content:center;gap:2.5rem;flex-wrap:wrap;text-align:center}
+.magbar .ml{display:flex;flex-direction:column;align-items:center;gap:.3rem}
+.magbar .ml img{height:52px;width:auto;filter:brightness(0) invert(1)}
+.magbar .ml span{font-family:var(--ind);font-weight:700;color:#fff;letter-spacing:.28em;
+  font-size:.9375rem;text-transform:uppercase}
+.magbar .mr{display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap;justify-content:center}
+.magbar .mr p{font-family:var(--reith);font-size:1.5rem;color:#fff}
+.magbar .mr a{background:#2b8a8f;color:#fff;font-family:var(--reith);font-weight:700;
+  font-size:.9375rem;text-transform:uppercase;letter-spacing:.04em;padding:.75rem 1.4rem;
+  text-decoration:underline}
+
+/* ---------- site footer ---------- */
+footer.site{background:#E1DCDC;color:var(--navy);margin-top:0;padding:3rem 1rem}
+footer.site .in{max-width:80rem;margin:0 auto}
+footer.site .row1{display:flex;justify-content:space-between;align-items:flex-start;gap:2rem;flex-wrap:wrap}
+footer.site .bbcst{font-family:var(--ind);font-weight:700;line-height:1.1}
+footer.site .bbcst .b{display:flex;gap:3px;margin-bottom:4px}
+footer.site .bbcst .b i{background:var(--navy);color:#E1DCDC;font-style:normal;font-size:.9rem;
+  width:20px;height:20px;display:grid;place-items:center}
+footer.site .bbcst .s{font-size:1.05rem;letter-spacing:.02em}
+footer.site .soc{display:flex;gap:1.75rem;font-size:1.4rem}
+footer.site .region{background:none;padding:0;font-family:var(--reith);font-size:1rem;margin:1.75rem 0 1.25rem}
+footer.site .region b{font-weight:700}
+footer.site .region a{color:#6b6b6b;text-decoration:none}
+footer.site nav.f1,footer.site nav.f2{display:flex;gap:2rem;flex-wrap:wrap;
+  font-family:var(--reith);font-size:1rem;margin-bottom:1.25rem}
+footer.site nav a{text-decoration:none;color:var(--navy)}
+footer.site nav a:hover{text-decoration:underline}
+footer.site .ext:before{content:"\2197";display:inline-block;margin-right:.4rem;font-size:.9em}
+footer.site .legal{font-family:var(--reith);font-size:1rem;line-height:1.55;max-width:52rem;margin:1.5rem 0}
+footer.site .legal p{margin-bottom:1rem}
+footer.site hr{border:none;border-top:1px solid var(--navy);margin:2rem 0 1.5rem}
+footer.site h4{font-family:var(--ind);font-weight:500;text-transform:uppercase;font-size:1.25rem;
+  margin-bottom:1rem}
+footer.site .intl{display:flex;gap:1.75rem;flex-wrap:wrap;font-family:var(--reith);font-size:1rem}
+footer.site .credit{font-family:var(--reith);font-size:.875rem;color:#5b5b5b;margin-top:2rem}
+
+a:focus-visible,button:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+</style>
+<div class="region"><div class="in"><a href="#" class="on">United Kingdom</a><a href="#">United States</a></div></div>
+
+<header class="mast"><div class="in">
+  <a class="logo" href="#"><img src="img/logo.svg" alt="Quickler"></a>
+  <nav><a href="#">Reviews</a><a href="#">News</a><a href="#">Climbs</a><a href="#">Kit</a><a href="#">Hot Lists</a></nav>
+  <div class="tools"><span>Search</span><span>Sign in</span></div>
+</div></header>
+
+<div class="crumb"><div class="in">
+  <a href="#">Home</a><span class="arw">&rsaquo;</span>
+  <a href="#">Bike news</a><span class="arw">&rsaquo;</span>
+  <a href="#">Big Reads</a><span class="arw">&rsaquo;</span>
+  <span class="cur">Life on the edge of rubber, spew, and being dropped</span>
+</div></div>
+
+<div class="fsh"><div class="strip" role="img" aria-label="The Devil's Elbow towards the Cairnwell"
+  style="background-image:url(img/pf522fa2aac.jpg)"></div></div>
+
+<div class="titlewrap"><div class="in">
+  <a class="cat" href="#">Big Reads</a>
+  <h1 class="fool">Life on the edge of rubber, spew, and being dropped</h1>
+  <p class="pica">Three ski stations, 2,620 metres of climbing, and a biscuit that very nearly ended it.</p>
+  <div class="authored">
+    <img class="av" src="img/pb245f65d0b.jpg" alt="">
+    <div>
+      <div class="nm">Inspired by Specialised Spew. Labour outsourced to Claude</div>
+      <div class="meta"><span>Published: 31 Aug 2026</span>
+        <span class="cc">&#9646; 18</span><span>&#128279;</span></div>
+    </div>
+  </div>
+  <a class="subsc" href="#">Quickler Weekly &ndash; the ride report, every Monday &#8599;</a>
+</div></div>
+
+<span class="tealrule"></span>
+
+<div class="shell">
+<div class="markup"><div class="in">
+
+<p>Modern cycling has decided that the answer to everything is carbohydrate, and the fastest man on this ride will tell you it is right. Easy FO Bianchi put away three hundred and fifty grams of the stuff between Pitlochry and Aviemore, said his legs were good for a change, and gave the credit entirely to the eating. He was first up the Lecht and first up Cairngorm. His method was to eat like a horse for six hours.</p>
+
+<p>I subscribed to the identical doctrine and administered it, violently and with Italian panache, in the form of a hobnob. There is a stretch of the A939 that has now had more of my breakfast on it than I have.</p>
+
+<p>Between those positions lie a hundred and eighty-one kilometres, three ski stations, two thousand six hundred and twenty metres of climbing, five men who had each promised in writing to do no work whatsoever, and a bus. The bus does me no credit at all.</p>
+
+<div class="keyfig">
+  <div><div class="v">181</div><div class="k">Kilometres</div></div>
+  <div><div class="v">2,620</div><div class="k">Metres climbed</div></div>
+  <div><div class="v">275</div><div class="k">Normalised watts</div></div>
+  <div><div class="v">89.2</div><div class="k">Kph top speed</div></div>
+</div>
+
+<h2>The attrition</h2>
+
+<p>Nine were invited. Five came. A man's excuse is the only wholly honest thing he produces all week.</p>
+
+<p>Romeo Rider withdrew for a woman, having received a competing bicycle proposal from a party who were, he said, blonder than us. It is not a high bar and he knew it.</p>
+
+<p>The New Father withdrew on account of a three-week-old daughter. This is the one unanswerable excuse in cycling, and I answered it anyway, on the grounds that if he did not come it would only count as neglect.</p>
+
+<p>Ultra-Tree Planter had an ultra. Sergio withdrew for his dog, left the chat at ten past five on the Friday, was resurrected at a quarter to seven when somebody agreed to mind the animal, wrote <em>Im in</em>, and chose in the end to stay wrapped in the blessed cocoon of the duvet. He spent Saturday in Dundee, texting to ask who had been first up the Lecht. There was a simple solution to this. Get out of bed. There is no lonelier position in sport.</p>
+
+<figure class="shot">
+  <img src="img/p267739c901.jpg" alt="Two riders at the car boot before the start">
+  <figcaption>Pitlochry, 08:59. Bikes out of the boot, and the last of the good intentions</figcaption>
+</figure>
+
+<h2>The Cairnwell</h2>
+
+<p>The first forty-one kilometres went by at two hundred and fifty-two watts, which fooled nobody. Then the road stood up towards the Cairnwell and the civility was withdrawn without notice. Twenty minutes at three hundred and twenty-seven watts, on a climb that arrives before anybody is warm. Five friends went into the bottom of it. Considerably fewer came over the top together.</p>
+
+<p>Strava names its segments better than any of us could: <em>entering the devil's anus</em>, <em>Saints Flame Rouge</em>, and later, downhill, <em>Chasing Campervans</em>. On that last I recorded eighty-nine point two kilometres an hour, the fastest I have travelled under my own power, in the slipstream of a caravan. Every man has a summit. Mine had a bicycle rack and a Caravan Club sticker.</p>
+
+<blockquote><p>Race? Can I wear aero socks?</p></blockquote>
+
+<p>Mc54Tooth, the most honest man in the chat and possibly in Scotland, later explained that he had spent the early climbing deliberately staying out of the red, assuming a group of friends would soft-pedal over the top and wait. We did not wait.</p>
+
+<div class="yml">
+  <h3>You might like</h3>
+  <ul><li><a href="#"><img src="img/p3e3b16eee4.jpg" alt="" loading="lazy"><span>Fleeing from the FO: 38km, one red jersey, and he caught us anyway</span></a></li><li><a href="#"><img src="img/p10bd156c84.jpg" alt="" loading="lazy"><span>The empty B-road at golden hour is the finest thing in Scotland</span></a></li><li><a href="#"><img src="img/pdd857cb6b0.jpg" alt="" loading="lazy"><span>Bothy night: a wood stove, prayer flags and two men with nothing left</span></a></li><li><a href="#"><img src="img/pc1af23d5a9.jpg" alt="" loading="lazy"><span>Camping is a versatile past time: the tent that saves you a hotel</span></a></li></ul>
+</div>
+
+<h2>The hobnob</h2>
+
+<p>For one glorious hour the doctrine held. I ate, and ate, and dropped three grown men on a climb, which perplexes me still, since I have never once been the strongest man in a group of five. I assumed I had found something. What I had found was the top of the arc.</p>
+
+<p>Ten minutes later I put another hobnob down and spewed three times.</p>
+
+<p>The chemistry, for those keeping notes. A hobnob is roughly sixty per cent carbohydrate and a fifth fat. Fat, on a gradient, at eighty-nine per cent of threshold, is luggage, and luggage has only the one way out. Every calorie I took that day was put to honest work except those locked in an oat biscuit built for a vicarage tea trolley, which mutinied above Tomintoul.</p>
+
+<p>It is a curious sensation to be at once the strongest man on the road and the only one depositing his lunch onto it. Nobody stopped. I would not have stopped for me either. Four men rode past a friend being sick into the heather and not one of them so much as turned his head. I have never felt more warmly towards any of them.</p>
+
+<p>I concluded at the roadside, wiping my mouth, that I had discovered a rapid weight-shedding technique of considerable promise. Two days have not altered this view.</p>
+
+<h2>The gallery</h2>
+
+<div class="gallery" data-gal="g1"><div class="gstage"><img class="gsi" src="img/p8a5cf57fb6.jpg" alt="The A93 south of the Cairnwell, everybody still eating sensibly"><button class="arw lft gpv" aria-label="Previous image">&lsaquo;</button><button class="arw rgt gnx" aria-label="Next image">&rsaquo;</button><span class="cnt gcn">1 / 7</span><button class="exp gfs" aria-label="View full screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></button></div><div class="gcap gcp">The A93 south of the Cairnwell, everybody still eating sensibly</div><div class="gfilm gfm"><button type="button" data-i="0" aria-current="true"><img src="img/p8a5cf57fb6.jpg" alt="" loading="lazy"></button><button type="button" data-i="1" aria-current="false"><img src="img/p7e094d6e74.jpg" alt="" loading="lazy"></button><button type="button" data-i="2" aria-current="false"><img src="img/p68d4155f26.jpg" alt="" loading="lazy"></button><button type="button" data-i="3" aria-current="false"><img src="img/pa8763d07cf.jpg" alt="" loading="lazy"></button><button type="button" data-i="4" aria-current="false"><img src="img/pe986f436d2.jpg" alt="" loading="lazy"></button><button type="button" data-i="5" aria-current="false"><img src="img/pe10e104db2.jpg" alt="" loading="lazy"></button><button type="button" data-i="6" aria-current="false"><img src="img/pc37e08c846.jpg" alt="" loading="lazy"></button></div></div>
+
+<h2>The Lecht</h2>
+
+<p>Sergio asked the question that evening from Dundee, so we may as well have it out. Who was first up the Lecht. Easy FO Bianchi, then me. And then, unrequested, confirmation that it had been the same order up Cairngorm. His verdict on the pair of us ran to two words: two fresh cookies.</p>
+
+<p>So a man who spends his week at flight level three-six-zero beat me up one mountain and then, for the avoidance of any doubt, beat me up another. My own account on Strava runs to three sentences. It mentions the vomiting twice and the result not once.</p>
+
+<p>The climb took fifteen minutes fifty-two at three hundred and thirty-five watts, some fifty below what these legs manage fresh, a shortfall I attribute to the five hours preceding it and not, whatever is being said, to the biscuit.</p>
+
+<p>Behind us Gruppeto Davies was going backwards in a manner he described that evening as absolute burnt toast. He listed the affected regions, and I reproduce it in full because it is the finest writing any of us managed that weekend: legs, back, chest, neck, shooders. Undercarriage, he added, times four.</p>
+
+<p>Gruppeto Davies stayed the night in Aviemore. I have made no enquiries as to how the small hours treated him, on the grounds that a hundred and fifty kilometres of Highland road and four hundred grams of assorted confectionery do not settle quietly in a strange bed.</p>
+
+<h2>Cairngorm</h2>
+
+<p>We came to the mountain road with a hundred and sixty kilometres in the legs and the field down to three. Bed Doctor had been shelled at a hundred kilometres and again at a hundred and sixty, and was nonetheless still there, upright, pedalling. Sixteen minutes at three hundred and thirty-three watts, heart at a hundred and seventy-one. The best number I have produced all year, and worth second place.</p>
+
+<p>At the top the condition of the party was summarised in two words: absolutely shagged. And then, about a man forty kilometres south of us and alone, the only verdict nobody disputed. Mc54Tooth is a machine.</p>
+
+<p>The descent to Aviemore we took at a speed that will not bear examination. Descending requires no training whatsoever, only a defective instinct for self-preservation, and on that measure the field was uncommonly strong.</p>
+
+<h2>The far side</h2>
+<div class="gallery" data-gal="g2"><div class="gstage"><img class="gsi" src="img/p6a5ceb47c1.jpg" alt="Single file, and the Cairnwell still to come"><button class="arw lft gpv" aria-label="Previous image">&lsaquo;</button><button class="arw rgt gnx" aria-label="Next image">&rsaquo;</button><span class="cnt gcn">1 / 6</span><button class="exp gfs" aria-label="View full screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></button></div><div class="gcap gcp">Single file, and the Cairnwell still to come</div><div class="gfilm gfm"><button type="button" data-i="0" aria-current="true"><img src="img/p6a5ceb47c1.jpg" alt="" loading="lazy"></button><button type="button" data-i="1" aria-current="false"><img src="img/p2c3844ca68.jpg" alt="" loading="lazy"></button><button type="button" data-i="2" aria-current="false"><img src="img/p4e41efcc7a.jpg" alt="" loading="lazy"></button><button type="button" data-i="3" aria-current="false"><img src="img/pd93da35e15.jpg" alt="" loading="lazy"></button><button type="button" data-i="4" aria-current="false"><img src="img/pbc2bf019a1.jpg" alt="" loading="lazy"></button><button type="button" data-i="5" aria-current="false"><img src="img/p1f1eb69aee.jpg" alt="" loading="lazy"></button></div></div>
+
+<h2>The bus</h2>
+
+<p>Now the bus.</p>
+
+<p>The reason nobody soft-pedalled over the top, and the reason a friend rode the afternoon alone over a misunderstanding, is that Easy FO Bianchi and I had a bus to catch. We made it with ten minutes to spare. I gave Mc54Tooth the honest version that evening: we were a bit paranoid.</p>
+
+<p>Mc54Tooth did not catch a bus. He had said three days before, in the manner of a man offering to get a round in, that he meant to ride back to Pitlochry and would anyone join him. Bed Doctor replied that the likelihood of his eating several jelly babies posed a limitation. Nobody joined him.</p>
+
+<p>He then rode a hundred kilometres alone down the A9 cycle path, having already crossed three ski stations, finishing on two hundred and forty-five kilometres and nearly three thousand metres of climbing, to save eighteen pounds on a train ticket.</p>
+
+<p>Eighteen pounds. Not a personal best, not a Strava crown, not the good opinion of his friends, all of whom were by then on a bus. Eighteen pounds. It is the most Scottish sentence I shall ever write.</p>
+
+<p>When the photographs came through I asked whether we were expected to believe it. Gruppeto Davies, thoroughly beaten by the same hills, wrote: actually so impressed. And then Mc54Tooth, asked what had kept him going, produced the only line of the day I expect to remember in twenty years.</p>
+
+<blockquote><p>The train is kinda impressive too, it made me smile</p></blockquote>
+
+<p>He had passed a Tesco freight train on the A9 and photographed it. Seven hours in, cracked, alone, and the thing that raised his spirits was a consignment of own-brand groceries going north at line speed. Whole books have been written about what sustains a man at the end of himself. It is a train.</p>
+
+<h2>The results, such as they are</h2>
+
+<table class="res">
+<thead><tr><th>Rider</th><th>His own title</th><th>Distance</th><th>Power</th><th>Verdict</th></tr></thead>
+<tbody>
+<tr><td>Easy FO Bianchi</td><td>3 Ski Stations</td><td class="n">112.4 mi</td><td class="n">244 W</td><td>First up both. Credits the carbohydrate.</td></tr>
+<tr><td>Specialised Spew</td><td>Ski Roads</td><td class="n">112.6 mi</td><td class="n">250 W</td><td>Second up both. Sick three times.</td></tr>
+<tr><td>Bed Doctor</td><td>Cairngorm Snow Passes</td><td class="n">112.4 mi</td><td class="n">243 W</td><td>Shelled at 100km, again at 160, still there.</td></tr>
+<tr><td>Mc54Tooth</td><td>Very unofficial gorms road race</td><td class="n">152.3 mi</td><td class="n">227 W</td><td>Rode back to Pitlochry to save &pound;18. Saw a train.</td></tr>
+<tr><td>Gruppeto Davies</td><td>Absolute burnt toast</td><td class="n">95.6 mi</td><td class="n">247 W</td><td>Burnt toast. Undercarriage, times four.</td></tr>
+</tbody>
+</table>
+
+<p>The doctrine survives. Easy FO Bianchi was right about the carbohydrate and I was wrong only about the delivery mechanism, and the distance between first and second may reduce to the fact that one of us ate like a professional and the other like a man working through the tin at a church coffee morning.</p>
+
+<p>We ride a loop from Perth in a month, so the men who could not reach Pitlochry may come and be dropped somewhere more convenient for the train. I am told there will be a cafe. I shall be taking gels.</p>
+
+<p><em>Photography: Specialised Spew, Easy FO Bianchi, Mc54Tooth and Gruppeto Davies</em></p>
+
+<button class="viewcom" type="button">&#9646; View comments</button>
+
+</div></div>
+
+<aside class="side">
+  <h2>Featured</h2>
+  <ul><li><a href="#"><span class="thumb"><img src="img/p375959d6e7.jpg" alt="" loading="lazy"><span class="badge">&#9646; 44</span></span><h3>Breakfast on a fire in a hole: field cooking for the desperate</h3></a></li><li><a href="#"><span class="thumb"><img src="img/p3e3b16eee4.jpg" alt="" loading="lazy"><span class="badge">&#9646; 19</span></span><h3>Fleeing from the FO: 38km and he caught us anyway</h3></a></li><li><a href="#"><span class="thumb"><img src="img/pf4d135fc4c.jpg" alt="" loading="lazy"></span><h3>Nine Scottish lochs worth a 200km detour to look at</h3></a></li><li><a href="#"><span class="thumb"><img src="img/p10bd156c84.jpg" alt="" loading="lazy"><span class="badge">&#9646; 25</span></span><h3>The empty B-road at golden hour is the finest thing in Scotland</h3></a></li></ul>
+</aside>
+</div>
+
+<div class="closer"><img src="img/p9cb6eff2e1.jpg" alt="Loch Morlich from the summit of Cairngorm"></div>
+
+<div class="mftg">
+  <div class="hd"><h2>More from Quickler</h2></div>
+  <div class="tabs" role="tablist">
+    <button role="tab" aria-selected="true">Big Reads</button>
+    <button role="tab" aria-selected="false">Climbs</button>
+    <button role="tab" aria-selected="false">Kit</button>
+    <button role="tab" aria-selected="false">News</button>
+  </div>
+  <div class="body"><div class="grid3"><article><a href="#"><img src="img/p7e8923aba6.jpg" alt="" loading="lazy"><div class="kick">Big Reads</div><h3>Sunrise, a field, and a man cooking alone: the 06:00 club</h3><div class="dt">31 Aug 2026</div></a></article><article><a href="#"><img src="img/p97b3658b8c.jpg" alt="" loading="lazy"><div class="kick">Big Reads</div><h3>The BMW F34 GT is the only true cycling superbike</h3><div class="dt">28 Aug 2026</div></a></article><article><a href="#"><img src="img/p6c23a9c7a2.jpg" alt="" loading="lazy"><div class="kick">Advice</div><h3>How to dig a fire pit without setting Perthshire alight</h3><div class="dt">25 Aug 2026</div></a></article><article><a href="#"><img src="img/p91093d869d.jpg" alt="" loading="lazy"><div class="kick">Kit</div><h3>Stormy start, then sunburn: dressing for a Scottish summer</h3><div class="dt">22 Aug 2026</div></a></article><article><a href="#"><img src="img/pa38c8f27c0.jpg" alt="" loading="lazy"><div class="kick">Big Reads</div><h3>How to attract a mate in the wild while doing 3 x 12 min efforts</h3><div class="dt">19 Aug 2026</div></a></article><article><a href="#"><img src="img/p9cb6eff2e1.jpg" alt="" loading="lazy"><div class="kick">Hot Lists</div><h3>Twelve Highland views worth stopping the bike for</h3><div class="dt">15 Aug 2026</div></a></article></div></div>
+</div>
+
+<div class="magbar">
+  <div class="ml"><img src="img/logo.svg" alt="Quickler"><span>Weekly</span></div>
+  <div class="mr"><p>Subscribe to Quickler Weekly</p><a href="#">Find out more</a></div>
+</div>
+
+<footer class="site"><div class="in">
+  <div class="row1">
+    <div class="bbcst"><div class="s">QUICKLER</div></div>
+    <div class="soc"><span>&#61441;</span><span>&#9673;</span><span>&#120143;</span><span>&#9654;</span><span>&#8862;</span></div>
+  </div>
+  <div class="region">Region: <b>United Kingdom</b> | <a href="#">United States</a></div>
+  <nav class="f1"><a href="#">Contact Us</a><a href="#">Privacy Policy</a><a href="#">Cookies Policy</a><a href="#">Archive</a></nav>
+  <nav class="f2"><a class="ext" href="#">Site Terms</a><a class="ext" href="#">Code of conduct</a><a class="ext" href="#">Advertise with us</a><a class="ext" href="#">Quickler Weekly</a><a class="ext" href="#">Site Map</a></nav>
+  <div class="legal">
+    <p>This is a personal website. No money changed hands and no editor was consulted.</p>
+    <p>Quickler is a Scottish software company that has nothing to do with bicycles. The proprietor rides them anyway, usually badly, and occasionally writes it up. All photographs belong to the men who took them.</p>
+  </div>
+  <nav class="f2"><a class="ext" href="#">More about Quickler</a></nav>
+  <hr>
+  <h4>Quickler Around The World</h4>
+  <div class="intl"><span>France</span><span>Greece</span><span>Hong Kong</span><span>India</span><span>Italy</span><span>Japan</span><span>Netherlands</span><span>Philippines</span><span>Serbia</span><span>South Africa</span><span>Spain</span></div>
+  <div class="credit">Pitlochry to Aviemore &middot; 29 August 2026 &middot; 181km &middot; 2,620m &middot; Five starters</div>
+</div></footer>
+
+<div class="fs" id="fs" role="dialog" aria-modal="true" aria-label="Full screen image">
+  <div class="top"><button id="fsx" aria-label="Close">&times;</button></div>
+  <div class="mid">
+    <button class="l" id="fsl" aria-label="Previous">&lsaquo;</button>
+    <img id="fsi" src="" alt="">
+    <button class="r" id="fsr" aria-label="Next">&rsaquo;</button>
+  </div>
+  <div class="cap" id="fsc"></div>
+</div>
+
+<script>
+(function(){
+  var DATA={"g1":[{"src": "img/p8a5cf57fb6.jpg", "cap": "The A93 south of the Cairnwell, everybody still eating sensibly"}, {"src": "img/p7e094d6e74.jpg", "cap": "Moulin Moor, 09:46. Forty minutes in"}, {"src": "img/p68d4155f26.jpg", "cap": "10:14. The line starts to string out towards Glenshee"}, {"src": "img/pa8763d07cf.jpg", "cap": "Five across the road. It did not last"}, {"src": "img/pe986f436d2.jpg", "cap": "Somebody on the front, doing the work he promised in writing not to do"}, {"src": "img/pe10e104db2.jpg", "cap": "The wheel nobody wanted to be on by the end of the day"}, {"src": "img/pc37e08c846.jpg", "cap": "Rosebay willowherb and a very long straight road north"}],"g2":[{"src": "img/p6a5ceb47c1.jpg", "cap": "Single file, and the Cairnwell still to come"}, {"src": "img/p2c3844ca68.jpg", "cap": "Spicy pace from the Mc54T"}, {"src": "img/p4e41efcc7a.jpg", "cap": "13:00. Specialised Spew, cheerful, and yet to meet the biscuit"}, {"src": "img/pd93da35e15.jpg", "cap": "Past Tomintoul the weather turned its collar up"}, {"src": "img/pbc2bf019a1.jpg", "cap": "The car park that served as a finishing straight"}, {"src": "img/p1f1eb69aee.jpg", "cap": "Looking back down the ski road towards the bus"}]};
+  var fs=document.getElementById('fs'),fi=document.getElementById('fsi'),fc=document.getElementById('fsc');
+  function closeFs(){fs.classList.remove('on');document.body.classList.remove('noscroll');}
+  var gals={};
+  document.querySelectorAll('.gallery').forEach(function(g){
+    var key=g.dataset.gal,G=DATA[key],i=0;
+    var si=g.querySelector('.gsi'),cp=g.querySelector('.gcp'),
+        cn=g.querySelector('.gcn'),fm=g.querySelector('.gfm');
+    function show(n){
+      i=(n+G.length)%G.length;
+      si.src=G[i].src; si.alt=G[i].cap; cp.textContent=G[i].cap;
+      cn.textContent=(i+1)+' / '+G.length;
+      fm.querySelectorAll('button').forEach(function(b,k){
+        b.setAttribute('aria-current',k===i?'true':'false');
+        if(k===i)b.scrollIntoView({block:'nearest',inline:'nearest',behavior:'smooth'});});
+      if(fs.classList.contains('on')&&fs.dataset.gal===key){
+        fi.src=G[i].src;fi.alt=G[i].cap;fc.textContent=G[i].cap;}
+    }
+    function openFs(){fs.dataset.gal=key;fi.src=G[i].src;fi.alt=G[i].cap;fc.textContent=G[i].cap;
+      fs.classList.add('on');document.body.classList.add('noscroll');document.getElementById('fsx').focus();}
+    g.querySelector('.gpv').onclick=function(){show(i-1);};
+    g.querySelector('.gnx').onclick=function(){show(i+1);};
+    g.querySelector('.gfs').onclick=openFs; si.onclick=openFs;
+    fm.querySelectorAll('button').forEach(function(b){b.onclick=function(){show(+b.dataset.i);};});
+    gals[key]={next:function(){show(i+1);},prev:function(){show(i-1);}};
+  });
+  function cur(){return gals[fs.dataset.gal];}
+  document.getElementById('fsx').onclick=closeFs;
+  document.getElementById('fsl').onclick=function(){var g=cur();if(g)g.prev();};
+  document.getElementById('fsr').onclick=function(){var g=cur();if(g)g.next();};
+  document.addEventListener('keydown',function(e){
+    if(!fs.classList.contains('on'))return;
+    if(e.key==='Escape')return closeFs();
+    var g=cur(); if(!g)return;
+    if(e.key==='ArrowLeft')g.prev();
+    if(e.key==='ArrowRight')g.next();});
+  document.querySelectorAll('.tabs button').forEach(function(b){
+    b.onclick=function(){document.querySelectorAll('.tabs button').forEach(function(x){
+      x.setAttribute('aria-selected','false');});b.setAttribute('aria-selected','true');};});
+})();
+</script>
+</body>
+</html>
